@@ -7,6 +7,7 @@ A full-stack **MERN** (MongoDB, Express, React, Node.js) application built with 
  🚀 Live Links: 
  
 **Frontend URL:**: https://caterering-platform.vercel.app
+
 **Backend API:**: https://caterering-platform.onrender.com
 
 ---
