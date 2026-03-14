@@ -5,6 +5,7 @@ A full-stack **MERN** (MongoDB, Express, React, Node.js) application built with 
 ---
 
  🚀 Live Links: 
+ 
 -** Frontend URL:**: https://caterering-platform.vercel.app
 - **Backend API:**: https://caterering-platform.onrender.com
 
@@ -38,16 +39,16 @@ A full-stack **MERN** (MongoDB, Express, React, Node.js) application built with 
 
 ```text
 catering-platform/
-├── backend/                # Node/Express API
-│   ├── config/            # Database Configuration (MongoDB)
-│   ├── controllers/       # Business Logic
-│   ├── models/            # Mongoose Schemas
-│   ├── routes/            # Express Route Definitions
-│   └── server.js          # Main Entry Point
-├── frontend/client/       # Next.js Application
-│   ├── public/            # Static Assets
+├── backend/                
+│   ├── config/            
+│   ├── controllers/       
+│   ├── models/            
+│   ├── routes/           
+│   └── server.js         
+├── frontend/client/       
+│   ├── public/            
 │   └── src/
-│       ├── app/           # Pages, Layouts & Dynamic Routes
-│       ├── components/    # Reusable UI Components
-│       └── globals.css    # Tailwind & Custom Styles
+│       ├── app/           
+│       ├── components/    
+│       └── globals.css   
 └── README.md
