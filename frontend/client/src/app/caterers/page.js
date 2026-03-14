@@ -11,7 +11,7 @@ export default function CaterersPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/caterers")
+    fetch("https://caterering-platform.onrender.com/api/caterers")
       .then((res) => res.json())
       .then((data) => {
         setCaterers(data);

@@ -9,7 +9,15 @@ const app = express();
 
 connectDB();
 
-app.use(cors());
+app.use(cors({
+  origin: [
+      "http://localhost:5000",
+      "https://caterering-platform.vercel.app",                
+      "https://caterering-platform.onrender.com"   
+  ],
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
 app.use(express.json());
 
 

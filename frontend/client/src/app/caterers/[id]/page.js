@@ -11,7 +11,7 @@ export default function CatererDetails() {
 
   useEffect(() => {
     if (!id) return;
-    fetch(`http://localhost:5000/api/caterers/${id}`)
+    fetch(`https://caterering-platform.onrender.com/api/caterers/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setCaterer(data);
