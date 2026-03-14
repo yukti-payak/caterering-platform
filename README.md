@@ -1,6 +1,6 @@
 Caterering Platform 
 
-A full-stack **MERN** (MongoDB, Express, React, Node.js) application built with **Next.js 14** to bridge the gap between event organizers and premium catering services. This project features a robust backend API and a high-performance, SEO-friendly frontend.
+A full-stack **MERN** (MongoDB, Express, React, Node.js) application built with **Next.js 14** Built with a monorepo architecture, it leverages Next.js 14 Server Components for optimized SEO and Express.js for a scalable RESTful API.
 
 ---
 
