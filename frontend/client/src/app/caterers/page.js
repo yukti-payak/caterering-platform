@@ -11,7 +11,7 @@ export default function CaterersPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("ttp://localhost:5000/api/caterers")
+    fetch("http://localhost:5000/api/caterers")
       .then((res) => res.json())
       .then((data) => {
         setCaterers(data);
